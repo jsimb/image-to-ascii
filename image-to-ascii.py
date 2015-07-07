@@ -1,10 +1,17 @@
+# Image to ASCII Art
+# Created on 7 Jul 2015
+# Author: jsimb
+#
+# Writes a .txt file containing ascii art corresponding to an arbitrary image.
+# Tested with python3 ($ python3 image-to-ascii.py image.jpg)
+
 from PIL import Image
 import sys
 
-greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 ranges of 11 pixels each
+greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 tonal ranges of ~11 pixels each
 
 if len(sys.argv) != 2:
-    print("Usage: ./jpg2ascii.py <image.jpg>")
+    print("Usage: ./image-to-ascii.py <image_file>")
     sys.exit()
 f = sys.argv[1]
 
@@ -12,7 +19,7 @@ img = Image.open(f)
 img = img.convert("L") #convert to greyscale
 
 (x,y) = img.size
-newsize = (int(x/y*50), 30)
+newsize = (int(x/y*50), 30) #height of 30 characters, image aspect-ratio is kept
 img = img.resize(newsize, Image.ANTIALIAS)
 
 str = ""
