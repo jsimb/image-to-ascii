@@ -1,2 +1,2 @@
 # image-to-ascii
-A simple python script to turn images into ascii art
+A simple python script to turn images into ascii art.
