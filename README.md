@@ -29,52 +29,64 @@ $ python3 image-to-ascii.py image.jpg 30 2
 This will output a file named *image.txt* containing ASCII art 30 characters tall. It was previously determined that the monospace font used to display the ASCII art allowed twice as much characters in width as it did in height, hence the ratio of 2.
 
 <pre>
-                                     ,;s23MHGGGHMh5Xi~
-                                 ~XM#&@@@@@@@@@@@@@@@@9H2;
-                              ,AG&@@@@@&&&&&&&&&&&&&&@@@@@#3;
-                            ~3B@@@&&&&@@@@@@@@@@@@@@@&&&&@@@@Gi
-                           2&@@&&@&@@@@BSM5AXssX23H#&@@@@&@&@@@H:
-                         :S@@&@@&@@@G2;.            ,r39@@@@@&&@&X
-                        ;B@&@@@&@B5:                    rG@@@@@&@@5
-                       :&@&@@@&@M,                        sB@@@@@&@A
-                       #@&@@@@@2                           ~#@@@@@&@:
-                      s@&@@@&@h                             ~B@@@@&@H
-                      H@&@@@@&~                              5@&@@@@&,
-                      #@@@@@@#                               i@&@@@@@;
-                      #@@@@@@9                               r@&@@@@@i
-                      #@@@@@@@;                              M@&@@@&@i
-                      #@@@@@@@S                             :&@@@@@&@i
-                      #@@@@@@@@G,                          ,9@@@@@@&@i
-                      9@@@@@@@&@9s                        ~#@@@@@@@&@i
-                      #@@@@@@@@&@@SX,                    rB@&@@@@@@&@;
-        ~s255555555555B@@@@@@@@@@@@@BH2i,              ,h@@@@@@@@@@@@h22222225555Ai.
-       5&@@@@@@@@@@@@@@@@@@@@@@@@@@&@@@@&9SHMMMHSi    X9@@@@@@@@@@@@@@@@@@@@@@@@@@@9i
-      ;@@&&&&&&&&&&&&&@@@@@@@@@@@@@@@&&@@@@@@@@@9   rS@@&@@@@@@@@@@@@&&&&&&&&&&&&&&@9
-      r&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&@9, sS@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9X29@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B&@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&@@@@@@@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#GHHS9@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Gs~     .;5B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&X           ,H@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@&@2              #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:              h@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@&@5              9@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&X           ,H@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&@#A,      ih&@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#3s,     .i3#@@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@BX.            iS@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@#~                3@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@&:                  M@&@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@&@G                   :@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@&@h                   .&@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@#.                  s@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@92r;;;;;;;;;;;;;ish&@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&@@@@@@@@@@@@@@&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9
-      i@&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@B
-      .H@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&A
-        i5MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhA~
+LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLIILLILLLLLLLLLLLLLLLLL
+rrrrrLLrrrLLLLrrrrLLLLLLLLLLLLLLLLLLLLrrrrrLLrrLLLLLLLLLLLLLLLLLLLLLLLLLrrrrrrrL
+rrrrrrrrrrLLrrrrLLLLLLLLLLLrrLrrLrrrrrrrrrrrrrrrrrrrrrrrLrrrrrrrLLrrrrrrrrrrrrrL
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrL
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr::rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+r:rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr:rrrLLLLLLLrrrrrrrrrrrrrrrrrrrrrrrrrr:rrrrr:::r
+r:rrr::rrrr:rrrrrr:::::rr::r:r::rLIIIVVVVRRRVVIIr:rrrrrrrrrrrrr:rr::r::::rr::::r
+r::::r::::::::::::::::::::::::rIIIILIIIIVVVRRRRRRIr::::rrrrr:::::::::::::::::::r
+rrr::::::::::::::::::::::::::LILr:::::rrIIVVRRRRRQRL::::::::::::::::::::::::::::
+r:::::::::::::::::::::::::::LIr'......'':LIVVRRRRRRQI:::::::::::::::::::::::::::
+r::::::::''''''':::::::::':LRL:'......'':rLIVVRRRRRRQL:r:::::::::::::':::::::'::
+L:::::rr::''':''''::'::'':LVVr:'''''''''::rrLIRRRRRQQRLLrrrr:::::::::''::::::'::
+LLrLLrrrr:::rrr:::'''''''rVRVr':''''':::::rrLIVRRRRRRRIILLLrrrrr:::':''''::r::rr
+VILLLLLLrrLLLLLLLrr:'''':LVVVLLLLr''LILrLIIILIVRRRRRRRVIIILLLLLLrr''''''::::r:rr
+VILLLLLLLLLLLILLLLL::rrr:IVRVr::rr''Lr':rr:::LVRRRRRRRVIIIILILILLr:''':::::rr:rr
+VILLLLLLLLLLIILIIIIILLIILIVRV:''''''r:''.'':rIRRRRRRRRRIIILLLLLLLLr:::::::rrrrrr
+ILIVIIIIIILLIIIIIIIIIIIIVVVVRL''':':rr'''':rLVRRRRRRRRRIIILLLLLLLrrrrrrrLLrrrrLL
+IIVVVIIIIIIIIILIIIIIIIIVVVRRRIr::':LIL'::rrLIVRRRRRRRRRVVVVVIIIIIILIILLLLIIIIILL
+VVVVVIIIIIIIIIIIIIIIIIIIVVVVRRL::::rLLLr:rLLIVRRRRRRRRRVVIIIIIIIIIIIILLLLIIIIILL
+VVIVIIIIIIIIIIIIIIIIIIIIVVVRRRVL:'::rrrrrrLIVVRRRRRRRRRVIIIIIIIIIIIIIIIIIIIIIILL
+VVVVVIVIIIIIIIIIIIIIIIILIVVRRVRRVL''::rLIIVVVRRRRRRRRRRVVIIILLIIIIIIIIIIIILIIILI
+VVVVIVVVIIIIIIIIIIIIILLLLVVRRRRRRRVIIIIVVVVVVVRRRRRRRRRRVIIIIIIIIIIIIIIIIILLILII
+VVVVVVVVVIIIIIILLLLLLLLLLIVRRRRRRRRVLIIIVVVIIIIVRRRRRRRRVIIIIIIIIIIIIIIIIIIILLLI
+VVIVIIVIIIILLLLLLLLLLLLLLIVVVRRRRRVVL:rrLLLLLLLIVRRRRRRRRVIIIIILLLLLLLLLLLLLLLLI
+VIIIIIILLLLLLIIIIVIIIIIVVVRRRRRRRVILr::::r::::rrIVVVVVVRRRRVVVVIIVVIrrrLLLLLIILL
+IIIIIIIIILLIIIIIIVVVVVVVVRRRRRVILr:'''''''''''::LVVVIVVRRRRVVIILLLLLrrLLLLLIIILI
+IIIIIIVIIIIIILLIIVVIVRIVRRRRVVI:''.....''...''::LIVIIVRRRRRRVVIIrrrrrrrLLLLLLLLL
+IIIIIIIILLLLLLLIIIIIIVVVRRRVVI:'............''::LIVVIRRRRVVVRRVVILLrrrLrrrrLLLLL
+IIIIIIVIILLrrLLLIIIIVVRRRRVLLr'.............'''rIIVVVVIIILLIIVRRVVILLrrrrrr:rrLL
+IIIIIIIIIIVILLLLLLIVRRRRRVL:''...............':rLIIILrrrLLLIVVRRRRRVVIIIIILrrrrr
+VILIIIIILLIILLLLrLVRRRRRRVL:.........---.....':rLLLLLIVVVRRRRRRRRRRRRVVVVVILrrrr
+VVIIILLLLLLLLLLLVRRRRVRRVIIILr:::'...-----..'rLLIVVVRRRRRRRRRRRRRRRRRRIIIIIIIIIL
+VVIILLLLLLLLLLIRRVVRRVVVIIIIIIIILLrrrr::::rrLIIVRRRRRVVVVVRRRRRRRRRRRRVIIIIIILII
+VVVVIILLLLLLLLIVVVVVVRVIVIVVIVILLLILLIIIIIIIVVRRRRRRVVIVVVRVRRRRRRRRRRRVIIVIIIII
+VVVRVIIIIIIIIIVVVVRRVRVVVVVVVVIIIIIIIIIIIIVVRRRRRRVVVVVVVIIIVVVVRRRRRRVVIIIIIIII
+VVVVILLLLLLLIIVVVRRRRRVVVRVVVVVVVIVVVVIIVVRRRRRRRRRRRRVVIIIIVVRRRRRRVRVVVVIIVVII
+IIILrrrrrrrrLVVVVVVRRVVRVRVVRVVVVVVVVIVVVRRRRRRRRRRRRVVVIIVVRRRRRRRRVVVVVVIIIIII
+IIILLLLLLLLLVVVVVVVVVRVVRRVVRVVVVVVVVVVVVVRRRRRRRRRRVVVVVVRRRRRRRRRRRVVVVVIIIIII
+IVVVVIIIIIVVVVRVVVVVVRRRRRRVRRRVVVVVVVVVVRRRRRRRRRRRVVRRRRRRRRRRRRRRRRRRVRVVVVVV
+IIIIIIIVVVVVVVVVVVVVVVRRRRRRRRRRRVVVVVVRRRRRRRRRRRRRVRRRRRRRRRRRRRRRRRRRVRVVVVII
+IIIVIVVVVVVVVVVVVVVVVVRRRRRRRRRRVVVVVRRRRRRRRRRRRRRRRQQQRRRRRRRRRRRRRVVRVVVVVIII
+IIVVVVVVVVVVVRRRVRRRRVRRRRRRRRRVVVVVRRRRRRRRRRRRRRRRRQRRRRRRRRRRRRRRRRRRRVVVIIII
+IVVVRVVVRVVVIVVVVVVRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRQQRRRRRRRRRRRRRRRRRRRRRVVIII
+IVVRVVVRVVVIIIIIIIIVVRRRRRRRRRRRRRRRRRRRRRRRRRRQRRRRQRRRRRRRRRRRRRRRRRRRRRRRVVVI
+IVVRVVRRVVIIILIIIIIIIILr:::rLIIVRRRRRRRRRRRRRQQQRRRRRRRRRRRRRRRRRRRRRRRRRRRRRVVV
+IVVRRVRRVVIIIIIIVIIVIr'''''''::rrrLVRRRRRRRRRRQRRRRRRRRRRRRRRRRRRRRRRRRRRRRVVVVV
+IVVRRVRRRVVVVIVVVIVIIr::::::::::::::rLIVRRRRQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRVVVVV
+IVRRRRRRRRRRRVRVVVVVVILLLrrr::::::::::':rIVRRRVVRRRVVVVVVVRRRRRRRRVVRRRRRRRVVRVV
+IVRRRRRRRRRRRRRRRRRRRVVIILrrrr::rr::rLLr:rLIIILLIIIIIIIIVVVVRRQRRRRVRRRRRRRRRRVV
+VRRRRRRRRRRRRRRRRRRVILLr:rLLLrrrrrrLr:LIVIIILIIVVIIIVVVVVVVVVRRQQQQRRRRRRRRRRRVV
+RRRRRRRRRRRRRRRRRQVLLLrr::rLIILLLrrrLLrrLIVVIVVVVVVVIVRRVVRRRRRQQQQQRRRRRRRRRVVV
+RRRRRRRRRRRRRRRRRRIILLLLr:rrLIIILIILrLIIILLVVVVRRVRRVVRRRRRRRRQQQQQQRRRRRRRVRRVV
+RRRRRRRRRRRRRRRRRRVILILrrrLIIVVVVVVVVVVVVVVIRRRRRRRRRRRRRRRQQQQQQQQQRRRRRRRRRRVV
+RRRRRRRRRRRRRRRRRRRVVILLLVVVVVVVVVVVVVRRRRRRRRQQQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRRV
+RRRRRRRRRRRRRRRRRRRRRRIIVRRVRRRRRVVVVRRRRRRRRRRRQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRRR
+RRRRRRRRQRRRRRRRRRRRRRVVRRRRRRRRRRRRRRRRRRRRRQQQQQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRR
+RRRRRRQQQRRRRRRQRRRRRRRRRRRQRRRRRRRRQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRQQRRRRRR
+RRRQRRRRRRRQQQRRRRRRRQRRQRRRRRRRRRQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRQRRR
+RQQQQQQQQQQQQRRRRRRRRRQQQQRRRRRRQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRQQQQQRR
+RQQRRQQQRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRQQQQQQRQQRRQQQRQQQQQQQQQQQQQQQQQQQQQQQQQQR
 </pre>
