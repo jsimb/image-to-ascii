@@ -28,7 +28,7 @@ str = ""
 for y in range(img.size[1]):
     for x in range(img.size[0]):
         lum = 255-img.getpixel((x,y))
-        str += greyscale[(lum//18)]
+        str += greyscale[(lum//24)]
     str += "\n"
 
 f = open((f.split(".")[0] + ".txt"), "w")
