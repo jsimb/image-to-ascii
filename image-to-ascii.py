@@ -8,7 +8,9 @@
 from PIL import Image
 import sys
 
-greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 tonal ranges of ~11 pixels each
+greyscale = list(" -.':rLIVRQ")#11 tonal ranges of 24 pixels each
+#greyscale = list(" -.':rLIVXRMWQ@")#15 tonal ranges of 18 pixels each
+#greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 tonal ranges of ~11 pixels each
 
 if len(sys.argv) != 4:
     print("Usage: ./image-to-ascii.py <image_file> <max_height> <character_height_to_width_ratio>")
@@ -26,7 +28,7 @@ str = ""
 for y in range(img.size[1]):
     for x in range(img.size[0]):
         lum = 255-img.getpixel((x,y))
-        str += greyscale[(lum//11)]
+        str += greyscale[(lum//18)]
     str += "\n"
 
 f = open((f.split(".")[0] + ".txt"), "w")
