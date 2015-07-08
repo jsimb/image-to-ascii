@@ -3,23 +3,23 @@
 # Author: jsimb
 #
 # Writes a .txt file containing ascii art corresponding to an arbitrary image.
-# Tested with python3 ($ python3 image-to-ascii.py image.jpg)
+# Tested with python3.
 
 from PIL import Image
 import sys
 
 greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 tonal ranges of ~11 pixels each
 
-if len(sys.argv) != 2:
-    print("Usage: ./image-to-ascii.py <image_file>")
+if len(sys.argv) != 4:
+    print("Usage: ./image-to-ascii.py <image_file> <max_height> <character_height_to_width_ratio>")
     sys.exit()
-f = sys.argv[1]
+f, h, r = sys.argv[1], int(sys.argv[2]), float(sys.argv[3])
 
 img = Image.open(f)
 img = img.convert("L") #convert to greyscale
 
 (x,y) = img.size
-newsize = (int(x/y*50), 30) #height of 30 characters, image aspect-ratio is kept
+newsize = (int(x/y*h*r), h) #width is r*height, image aspect-ratio is kept
 img = img.resize(newsize, Image.ANTIALIAS)
 
 str = ""
