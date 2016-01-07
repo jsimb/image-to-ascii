@@ -10,13 +10,13 @@ $ python3 image-to-ascii.py <image_file> <max_height> <character_width_to_height
 
 **max_height:** The desired height of the ASCII art, expressed in characters.
 
-**character_height_to_width_ratio:** The ratio of height/width of the characters that will compose the ASCII art. The font used should be a *monospace* (fixed-width) font. Usually a value of 2 is fine.
+**character_width_to_height_ratio:** The ratio of width/height of the characters that will compose the ASCII art. The font used should be a *monospace* (fixed-width) font. Usually a value of 2 is fine.
 
 ### Example:
 ```bash
 $ python3 image-to-ascii.py monalisa.jpg 60 2.5
 ```
-This will output a file named *monalisa.txt* containing ASCII art 60 characters tall. It was previously determined that the monospace font used to display the ASCII art allowed two and a half times as much characters in width as it did in height, hence the ratio of 2.5
+This will output a file named *monalisa.txt* containing ASCII art 60 characters tall. It was previously determined that the monospace font used to display the ASCII art on github allowed approximately two and a half times as much characters in width as it did in height, hence the ratio of 2.5
 
 <pre>
 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLIIILLIILLLLLLLLLLLLLLLLLLLLL
