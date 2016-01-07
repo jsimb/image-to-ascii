@@ -13,7 +13,7 @@ greyscale = list(" -.':rLIVRQ")#11 tonal ranges of 24 pixels each
 #greyscale = list(" .,~:;irsXA253hMHGS#9B&@")#24 tonal ranges of ~11 pixels each
 
 if len(sys.argv) != 4:
-    print("Usage: ./image-to-ascii.py <image_file> <max_height> <character_height_to_width_ratio>")
+    print("Usage: ./image-to-ascii.py <image_file> <max_height> <character_width_to_height_ratio>")
     sys.exit()
 f, h, r = sys.argv[1], int(sys.argv[2]), float(sys.argv[3])
 
