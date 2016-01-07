@@ -4,7 +4,7 @@ A simple python script to turn images into ASCII art.
 
 ### Usage:
 ```bash
-$ python3 image-to-ascii.py <image_file> <max_height> <character_height_to_width_ratio>
+$ python3 image-to-ascii.py <image_file> <max_height> <character_width_to_height_ratio>
 ```
 **image_file:** An arbitrary image file, ideally of .jpg or .png format.
 
@@ -14,9 +14,9 @@ $ python3 image-to-ascii.py <image_file> <max_height> <character_height_to_width
 
 ### Example:
 ```bash
-$ python3 image-to-ascii.py image.jpg 30 2
+$ python3 image-to-ascii.py monalisa.jpg 60 2.5
 ```
-This will output a file named *image.txt* containing ASCII art 30 characters tall. It was previously determined that the monospace font used to display the ASCII art allowed twice as much characters in width as it did in height, hence the ratio of 2.
+This will output a file named *monalisa.txt* containing ASCII art 60 characters tall. It was previously determined that the monospace font used to display the ASCII art allowed two and a half times as much characters in width as it did in height, hence the ratio of 2.5
 
 <pre>
 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLIIILLIILLLLLLLLLLLLLLLLLLLLL
